@@ -73,7 +73,7 @@
 		"tall"			"315"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"TransparentBlack"
+		"bgcolor_override"	"0 0 0 100"
 
 		"pin_to_sibling"		"BlueScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -1984,6 +1984,27 @@
 		"enabled"			"1"
 		"verbose"			"1"
 
+		if_mvm
+		{
+			"visible"		"1"
+		}
+	}
+	"StatsBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"StatsBackground"
+		"xpos"			"c-265"
+		"ypos"			"416"	
+		"zpos"			"2"
+		"wide"			"540"
+		"tall"			"64"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"bgcolor_override"		"32 32 32 125"
+		
 		if_mvm
 		{
 			"visible"		"1"

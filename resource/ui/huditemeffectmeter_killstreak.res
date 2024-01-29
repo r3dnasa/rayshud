@@ -4,12 +4,23 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"				"c115"
+		"xpos"				"c-195"
+		"ypos"				"352"
 		"xpos_minmode"		"c65"
+	}
+	
+	
+		"ItemEffectMeterCountShadow"
+	{
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"1"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"labelText"			"#TF_KillStreak"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 }

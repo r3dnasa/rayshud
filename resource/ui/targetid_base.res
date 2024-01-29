@@ -11,7 +11,7 @@
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"TransparentBlack"
+		"fillcolor"			"0 0 0 100"	//"TransparentBlack"
 	}
 
 	"TargetIDBG"

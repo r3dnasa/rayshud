@@ -212,8 +212,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
-		"bgcolor_override"		"TransparentBlack"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 128"
+//		"PaintBackgroundType"	"2"
 	}
 	"WinningTeamLabel"
 	{

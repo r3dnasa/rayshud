@@ -1,10 +1,19 @@
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
-	"MainBackground"
+	"MainBackground"	
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"MainBackground"
-		"xpos"				"9999"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBackground"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"0"
+		"wide"			"400"
+		"tall"			"130"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"hud_menu_bg"
+		"fillcolor"		"0 0 0 100"
 	}
 
 	"BuildIcon"
@@ -18,9 +27,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"Cerbetica28"
-		"xpos"				"20"
-		"ypos"				"0"
+		"font"				"Cerbetica32"
+		"xpos"				"18"
+		"ypos"				"-3"
 		"zpos"				"2"
 		"wide"				"380"
 		"tall"				"25"
@@ -38,7 +47,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
-		"font"				"Cerbetica28"
+		"font"				"Cerbetica32"
 		"fgcolor"			"TransparentBlack"
 		"xpos"				"-2"
 		"ypos"				"-2"
@@ -268,18 +277,18 @@
 		"visible"			"0"
 	}
 
-	"MenuBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"MenuBG"
-		"xpos"				"0"
-		"ypos"				"20"
-		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"	"TransparentBlack"
-		"PaintBackgroundType"	"2"
-	}
+//	"MenuBG"
+//	{
+//		"ControlName"		"EditablePanel"
+//		"fieldName"			"MenuBG"
+//		"xpos"				"0"
+//		"ypos"				"20"
+//		"zpos"				"1"
+//		"wide"				"400"
+//		"tall"				"120"
+//		"visible"			"1"
+//		"enabled"			"1"
+//		"bgcolor_override"	"TransparentBlack"
+//		"PaintBackgroundType"	"2"
+//	}
 }

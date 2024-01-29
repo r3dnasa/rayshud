@@ -92,6 +92,29 @@
 		"labelText"			"%metal%"
 		"textAlignment"		"Left"
 	}
+	
+	"CostLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"CostLabelShadow"
+		"font"				"HudFontSmall"
+		"fgcolor"			"TransparentBlack"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"0"
+		"wide"				"50"
+		"tall"				"10"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%metal%"
+		"textAlignment"		"Left"
+
+		"pin_to_sibling"		"CostLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
 
 	"NumberBg"
 	{
@@ -128,5 +151,25 @@
 		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
+	}
+	"NumberLabelShadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"HudFontMediumSecondary"
+		"fgcolor"		"TransparentBlack"
+		"xpos"			"1"
+		"ypos"			"96"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"1"
+		"textAlignment"	"Center"
+		"dulltext"		"1"
+		"brighttext"	"0"
 	}
 }
