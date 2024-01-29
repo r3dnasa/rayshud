@@ -6,3 +6,5 @@ mvm currency/canteen panel
 training mode: fix start practice button positioning
 winpanel
 maybe reposition stats on scoreboard??
+
+based off of 3.95?
